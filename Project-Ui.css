@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width:100vw;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 .upper-main {
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +117,6 @@ body {
   top: 0;
   right: 0;
   width: 40vw;
-  height: 7fvh;
   z-index: -1;
 }
 .number-tag {
@@ -443,40 +444,132 @@ color: white;
     margin-top: 20rem;
     position: relative;
 }
-@media screen and (max-width: 1300px) {
-  .banner-bg{
-    width: 40vw;
-    height: 100vh;
+
+@media screen and (max-width :1605px)
+{
+
+  .header-countainer
+  {
+    margin-left: 17vw;
   }
 }
-@media screen and (max-width: 1300px) {
-  .header-countainer{
+
+@media screen and (max-width:1523px)
+{
+  .upper-main 
+  {
+    width:70vw;
+  }  
+}
+@media screen and (max-width:1527px)
+{
+  .lower-main-4
+  {
+  
+    gap: 5rem;
+    width: 80rem;
+    padding: 8rem 0;
     margin-left: 10rem;
-    gap: 4rem;
-    
+  }  
+}
+@media screen and (max-width:1407px)
+{
+  .lower-main-4
+  {
+  
+    gap: 3rem;
+    width: 90vw;
+    padding: 6rem 0;
+    margin-left: 7rem;
+  }  
+}
+@media screen and (max-width:1375px)
+{
+  .lower-main2
+  {
+    margin-left: 18rem;
+    gap: 8rem;
+  }
+
+  .lower-main-4
+  {  
+
+
+  }  
+}
+@media screen and (max-width:1595px)
+{
+  .header-countainer{
+   
+    gap: 13rem;
+    padding: 0.8rem 0;
+    margin-left: 14vw;
+ 
   }
   .upper-main{
-    margin-left: 10rem;
+    margin-left: 14vw;
+    margin-top: 10rem;
   }
-  .left-bg-decor{
-    width: 30vw;
-    height: 50vw;
-    margin-top: 20rem;
-  }
- 
 }
-@media screen and (max-width: 800px) {
-  .lower-main2{
-    margin-left: 10rem;
-    margin-top: 20rem;
-  }
-  .banner-bg{
-   top: 0;
-   right: 0;
-  }
+@media screen and (max-width:1459px)
+{
+  .header-countainer{
+   
+    gap: 8rem;
+    padding: 0.5rem 0;
+    margin-left: 10vw;
  
- 
+  }
+  .upper-main{
+    margin-left: 10vw;
+    margin-top: 8rem;
+  }
 }
+@media screen and (max-width:1586px)
+{
+  .header-countainer{
+   
+    gap: 8rem;
+    padding: 0.5rem 0;
+    margin-left: 10vw;
+ 
+  }
+  .upper-main{
+    margin-left: 10vw;
+    margin-top: 8rem;
+  }
+}
+@media screen and (max-width:1586px)
+{
+ .cointaier-form{
+ 
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 3px;
+ 
+ }
+ .info{
+  margin-top: 5rem;
+  gap: 1rem;
+ }
+}
+
+@media screen and (max-width:1274px)
+{
+ .cointaier-form{
+ 
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-radius: 3px;
+  margin-top: 4rem;
+ 
+ }
+ .info{
+  margin-top: 5rem;
+  gap: 0.5rem;
+ }
+}
+
 
 
 
