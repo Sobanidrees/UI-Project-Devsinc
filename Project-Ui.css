@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border box;
   max-width:100vw; 
-  
 
 }
 
@@ -336,6 +335,7 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
 }
+
 .form-button{
   background-color:#f4813f;
   font-size: 1rem;
@@ -642,7 +642,7 @@ color: white;
   gap: 1rem;
 }
 .box1{
-  width: 22rem;
+ 
   gap: 1rem;
 }
 .testimonial-author{
@@ -708,14 +708,8 @@ color: white;
     margin-left: 15rem;
     gap: 12rem;
   }
-  .cointaier-form{
-    align-items: center;
-  }
-  .input-field{
-   
-    gap: 1rem;
-    
-  }
+
+ 
  
   
   .lower-main-4{
@@ -934,6 +928,19 @@ color: white;
   }
 
 }
+@media screen and (max-width:571px)
+{
+ .lower-main-4{
+  margin-left: 0;
+ }
+  
+}
+@media screen and (max-width:487px)
+{
+.lower-main2{
+  margin-top: 41rem;
+}
+}
 @media screen and (max-width:411px)
 {
   .left-bg-decor{
@@ -974,11 +981,44 @@ color: white;
 }
 
 
-@media screen and (max-width:356px)
+@media screen and (max-width:475px)
 {
   .footer-img{
     width: 300vw;
   }
+  .textarea{
+   width: 60vw;
+  }
  
-  
+  .cointaier-form
+  {
+    width:70vw;
+    align-items: center;
+    padding:1rem;
+  }
+
+ .input-field
+ {
+   gap:5px;
+ }
+
+  .text1
+  {
+    width:61vw;
+  }
+  .box1{
+    width: 80vw;
+    padding:0;
+    gap: 3rem;
+  }
+  .star-list{
+    padding: 0;
+    margin: 0;
+  }
+  .cont-h2{
+    width: 60vw;
+  }
+  .count-p{
+    width: 60vw;
+  }
 }
